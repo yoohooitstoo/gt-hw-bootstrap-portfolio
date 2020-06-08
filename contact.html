@@ -13,52 +13,46 @@
   <title>My Portfolio</title>
 </head>
 <!-- Navbar goes here -->
-<nav class="navbar navbar-light bg-dark">
-  <a class="navbar-brand" href="index.html">Stuart Scott</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-    aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="index.html">Stuart</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">About Me</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<body>
-  <div class="container">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="contact">Contact</h1>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="index.html">About Me</a>
+      <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
     </div>
   </div>
-</div>
- <!-- Navbar content -->
- <!-- Optional JavaScript -->
+</nav>
+
+<body>
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="contact">Contact</h1>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar content -->
+  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -71,7 +65,7 @@
   </script>
 </body>
 <footer class="footer">
-  <p id="copyright"> &copy; Copyright</p>
+  <p class="copyright"> &copy; Copyright</p>
 
 </footer>
 
