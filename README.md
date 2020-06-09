@@ -6,6 +6,7 @@
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [URL](#URL)
 * [Credits](#credits)
 * [MIT License](#mit_license)
 
@@ -24,6 +25,11 @@ This Portfolio is hopefully responsive to many different screen size and is able
 !["Portfolio" page](./assets/css/pictures/portfolio.png)
 
 !["Contact" page](./assets/css/pictures/contact.png)
+## URL
+
+Please use the url below to access my portfolio.
+
+https://yoohooitstoo.github.io/gt-hw-bootstrap-portfolio/
 
 ## Credits
 
