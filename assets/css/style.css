@@ -2,12 +2,22 @@ body {
     background-color: lightslategrey;
     background-image: url(../css/pictures/backgroundimg.png);
 }
-.my-contact {
-    background-color: white;
+.my-index {
+    background-color: rgba(119, 136, 153, 0.473);
     padding: 25px 25px;
     position: relative;
-
 }
+.my-contact {
+    background-color: rgba(119, 136, 153, 0.473);
+    padding: 25px 25px;
+    position: relative;
+}
+.my-portfolio {
+    background-color: rgba(119, 136, 153, 0.473);
+    padding: 25px 25px;
+    position: relative;
+}
+
 #about-pic {
     float: left;
     width: 200px;
