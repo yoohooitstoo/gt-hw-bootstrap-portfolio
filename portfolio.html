@@ -1,41 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- titile here -->
+    <title>My Portfolio</title>
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <!-- titile here -->
-  <title>My Portfolio</title>
-</head>
-
-<body>
-  <!-- Navbar goes here -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Stuart</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="index.html">About Me</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
-        <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+  <body>
+    <!-- Navbar goes here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Stuart</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">About Me</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <a class="nav-item nav-link active" href="portfolio.html"
+            >Portfolio<span class="sr-only">(current)</span></a
+          >
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- portfolio here -->
-  <!-- need a container to start -->
-  <!-- portfolio needs five pics and a banner for each pic -->
-  <!-- could you a jumbotron as container -->
+    </nav>
+    <!-- portfolio here -->
+    <!-- need a container to start -->
+    <!-- portfolio needs five pics and a banner for each pic -->
+    <!-- could you a jumbotron as container -->
 
-  <div class="container my-portfolio">
+    <!-- <div class="container my-portfolio">
     <h1 class="content-text" id="portfolio">Portfolio</h1>
     <hr class="break" />
     <div class="row">
@@ -69,23 +84,82 @@
       </div>
     </div>
   </div>
-  </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-</body>
-<footer class="footer">
-  <p class="copyright"> &copy; Copyright</p>
-
-</footer>
-
-
+  </div> -->
+    <div class="container my-portfolio">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img
+              src="https://github.com/yoohooitstoo/Staying-in-Tonight-Generator/blob/master/Assets/images/HomePage-desktop.png?raw=true"
+              class="card-img-top"
+              alt="Staying in Tonight"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">
+                “Staying in Tonight” serves as a tool to help users make a
+                decision about how to spend a night staying at home, by either
+                watching a movie or playing a video game. <a href="https://github.com/yoohooitstoo/Staying-in-Tonight-Generator">Link to the repo.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img
+              src="https://github.com/yoohooitstoo/code-quiz/blob/master/assets/images/04-web-apis-homework-demo.gif?raw=true"
+              class="card-img-top"
+              alt="Code Quiz"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Code Quiz</h5>
+              <p class="card-text">
+                This Coding Quiz Application was built by using best practices
+                of web development by using HTML, CSS, Bootstrap Library and
+                JavaScript. <a href=https://github.com/yoohooitstoo/code-quiz">Link to the repo.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img
+              src="https://github.com/yoohooitstoo/weather-dashboard-gt-hw6/raw/master/assets/06-server-side-apis-homework-demo.png"
+              class="card-img-top"
+              alt="Weather Dashboard"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard</h5>
+              <p class="card-text">
+                This weather dashboard was built by using best practices of web
+                development by using HTML, CSS, Bootstrap Library and jQuery.
+                This dashboard is meant for those who want to see what the
+                weather looks like in different cities. <a href=https://github.com/yoohooitstoo/weather-dashboard-gt-hw6">Link to the repo.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <footer class="footer">
+    <p class="copyright">&copy; Copyright</p>
+  </footer>
 </html>
