@@ -33,7 +33,7 @@ https://yoohooitstoo.github.io/gt-hw-bootstrap-portfolio/
 
 ## Credits
 
-This was a solo project comlepeted by Stuart Scott.
+This was a solo project completed by Stuart Scott.
 
 ## MIT License
 
